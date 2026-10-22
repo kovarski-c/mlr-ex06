@@ -1,0 +1,12 @@
+[project]
+name = "mlr-ex06"
+version = "0.1.0"
+description = "MLR Exercise 6 e-bike experiment: shared pipeline (common.py) and Optuna model comparison (bayes_compare.py)"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "optuna>=3.6",
+]
